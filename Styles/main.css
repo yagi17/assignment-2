@@ -1,6 +1,7 @@
 /*---------- shared styles ----------*/
 main,
 header {
+
     margin: 0 auto;
     width: 81.25%;
     max-width: 73.125rem;
@@ -9,7 +10,9 @@ header {
 }
 
 .color-orange {
+
     color: #FF5400;
+
 }
 
 .primary-btn {
@@ -36,27 +39,33 @@ header {
 
 /*---------- nav related styles ----------*/
 nav {
+
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .title-container {
-    /* border: 1px solid red; */
+
     display: flex;
     align-items: center;
+
 }
 
 .nav-title {
+
     margin-left: 0.625rem;
     align-content: center;
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
+
 }
 
 nav ul {
+
     /* border: 1px solid red; */
     display: flex;
     list-style: none;
@@ -64,23 +73,40 @@ nav ul {
 
 }
 
+.menu {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    display: none;
+
+}
+
 nav li a {
+
     text-decoration: none;
     color: #424247;
+
 }
 
 /*---------- nav styles end ----------*/
+
+
+
+
 /*---------- Banner styles ----------*/
 .cover {
+
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Image-1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     height: fit-content;
+
 }
 
 .cover-container {
+
     /* border: 1px solid red; */
     height: fit-content;
     display: flex;
@@ -88,40 +114,48 @@ nav li a {
     flex-direction: column;
     padding: 9.375rem 11.563rem;
 
-
 }
 
 .cover-content {
+
     text-align: center;
     margin: auto;
     color: #ffffff;
+
 }
 
 .cover-title {
+
     font-size: 4rem;
     font-weight: 800;
     margin: 0;
+
 }
 
 .cover-description {
+
     margin-top: 0.875rem;
     font-size: 1rem;
     font-weight: 400;
+
 }
 
 .secletion {
+
     /* border: 1px solid red; */
     background: rgba(255, 255, 255, 0.30);
-    margin: auto;
+    width: auto;
     width: fit-content;
     border-radius: 0.5rem;
     display: flex;
     padding: 0.625rem;
     justify-content: center;
     gap: 1.25rem;
+
 }
 
 .selection-box {
+
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
     font-weight: 400;
@@ -129,37 +163,50 @@ nav li a {
     width: 10.875rem;
     height: 3.25rem;
     border: 0px;
-    padding-left: 1rem;
+    padding-left: 0rem;
+
 }
 
-/* popular-tour section */
+/*---------- Banner styles end ----------*/
+
+
+/*---------- Popular tours section start----------*/
+
 .popular-tour {
-    margin-top: 6.25;
+
+    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
     gap: 2.188rem;
+
 }
 
 .popular-tour-content {
+
     width: 34.063rem;
     gap: 1.5rem;
+
 }
 
 
 .popular-tour-title {
+
     color: #131318;
     font-family: Mulish;
     font-size: 2.5rem;
     font-weight: 800;
+
 }
 
 .tour-description {
+
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.625rem;
+
 }
 
 .popular-image {
@@ -171,7 +218,11 @@ nav li a {
 
 }
 
-/* Destination section */
+/*---------- Popular tour section end----------*/
+
+
+/*---------- Destination section start----------*/
+
 .destination-content {
     margin-top: 6.25rem;
     margin-bottom: 3rem;
@@ -182,216 +233,215 @@ nav li a {
     margin-top: 1.5rem;
     display: flex;
     gap: 1.5rem;
+}
 
+.places-container div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 200px;
+    max-width: 91vw;
 }
 
 .maldives {
+    border-radius: 1rem;
     background-image: url("../Images/Image-3.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 35.813rem;
     height: 18.75rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .indonesia {
+    border-radius: 1rem;
     background-image: url("../Images/Image-4.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 35.813rem;
     height: 18.75rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .srilanka {
-
+    border-radius: 1rem;
     background-image: url("../Images/Image-5.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 23.375rem;
     height: 17.875rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
 }
 
 .na {
-
+    border-radius: 1rem;
     background-image: url("../Images/Image-6.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 29.625rem;
     height: 17.875rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .kashmir {
-
+    border-radius: 1rem;
     background-image: url("../Images/Image-7.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 17.125rem;
     height: 17.875rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
 }
 
 .bangladesh {
-
+    border-radius: 1rem;
     background-image: url("../Images/Image-8.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 29.563rem;
     height: 18.75rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .bandarban {
-
+    border-radius: 1rem;
     background-image: url("../Images/Image-9.png");
-    background-repeat: no-repeat;
-    color: #ffffff;
     width: 42.063rem;
     height: 18.75rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
-/* .place-name {
-    color: #ffffff;
-} */
+/*---------- Destination section end----------*/
 
-/* service section */
+
+/*---------- service section start----------*/
 
 .service {
+
     margin-top: 6.25rem;
+
 }
 
 .service-content {
+
     text-align: center;
-    width: 37.5rem;
+    width: 30rem;
     margin: auto;
+
 }
 
 
 .service-title {
+
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
+
 }
 
 .service-description {
+
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+
 }
 
 .content-box-1 {
+    margin: 0;
     padding: 1.5rem;
-    width: 35.813rem;
+    /* width: 35.813rem; */
     height: 17.75rem;
     border-radius: 1rem;
     border: 0.063rem solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+
 }
 
 .content-box-2 {
+    margin: 0;
     padding: 1.5rem;
-    width: 35.813rem;
+    /* width: 35.813rem; */
     height: 17.75rem;
     border-radius: 1rem;
     border: 0.063rem solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+
 }
 
+
+
 .content-box-3 {
+    margin: 0;
     padding: 1.5rem;
-    width: 35.813rem;
+    width: 32.688rem;
     height: 17.75rem;
     border-radius: 1rem;
     border: 0.063 solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+
 }
 
 .service-content-box {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
+
 }
 
+/*---------- service section end----------*/
 
 
-/* Discounts section */
+/*---------- Discounts section start----------*/
 .discount {
+
     margin-top: 6.25rem;
+
 }
 
 .discount-title {
+
     color: #131318;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 800;
+
 }
 
 .discount-description {
+
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.625rem;
+
 }
 
 .package-1 {
+
     margin: 1.5rem auto;
     padding: 3.5rem;
     background-image: url("../Images/Image-10.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: fit-content;
     width: 66.25rem;
     border-radius: 1rem;
     display: inline-flex;
     justify-content: flex-end;
+
 }
 
 .package-2 {
+
     margin: 1.5rem auto;
     padding: 3.5rem;
     background-image: url("../Images/Image-11.png");
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: fit-content;
     width: 66.25rem;
     border-radius: 1rem;
-
+    display: inline-flex;
+    justify-content: flex-start;
 }
 
 .package-description {
-    border-radius: 1rem;
 
+    border-radius: 1rem;
     background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
+    backdrop-filter: blur(0.156rem);
     width: 29.938rem;
     height: 18.063rem;
     padding: 3.125rem;
@@ -399,50 +449,63 @@ nav li a {
 }
 
 .package-title {
+
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
+
 }
 
 .package-details {
+
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+
 }
 
 .package-price {
+
     color: #FF5400;
     font-size: 1.25rem;
     font-weight: 800;
 }
 
-/* video section */
+/*---------- Discounts section end----------*/
+
+
+/*---------- video section start----------*/
 
 .video-section {
+    border: 1px solid red;
     margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
 }
 
 .video-text {
+
     width: 33.25rem;
 }
 
 .video {
+
+    border-radius: 1rem;
     background-image: url("../Images/Image-12.png");
     background-repeat: no-repeat;
     color: #ffffff;
-    width: 38.125rem;
+    width: 33.25rem;
     height: 26.5rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .video-description-title {
-
+    margin: 0;
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
@@ -451,32 +514,37 @@ nav li a {
 }
 
 .video-description {
+
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
 }
 
-/* Newsletter section */
+/*---------- video section end----------*/
+
+
+/*---------- Newsletter section start ----------*/
 
 .newsletter {
+    border: 1px solid red;
     margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
+
 }
 
 .newsletter-form {
+
     border: 0.063rem solid #FF5400;
     border-radius: 1rem;
     width: 24.563rem;
     padding: 2.5rem;
+
 }
 
-.letter-title {}
-
-.letter-text {}
-
 .form-item {
+
     margin-top: 1.125rem;
     border: none;
     width: 24.563rem;
@@ -484,53 +552,85 @@ nav li a {
     flex-shrink: 0;
     border-radius: 0.5rem;
     background: rgba(19, 19, 24, 0.05);
+
 }
 
 .subscribe {
+
     text-align: center;
     color: #FFF;
     border-radius: 0.5rem;
     background: #FF5400;
+
 }
 
 .letter-img {
-    /* background-image: url("../Images/Image-13.png"); */
+
+    border-radius: 1rem;
+    background-image: url("../Images/Image-13.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 42rem;
+    height: 26.375rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
 }
 
-/* footer section */
+/*---------- Newsletter section end ----------*/
+
+
+/*---------- footer section start----------*/
 
 footer {
+
     margin-top: 6.25rem;
     background: rgba(19, 19, 24, 0.05);
     background: cover;
     padding: 6.875rem;
     font-family: 'Mulish';
+
 }
 
 .footer-text {
+
     text-align: center;
-    width: 48.063rem;
-    margin: auto;
+    /* width: 48.063rem; */
+    margin: 0px auto;
+
 }
 
 .footer-title-container {
+
     display: flex;
     justify-content: center;
+
 }
 
 .footer-description {
+
     color: #5A5A5D;
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+
 }
 
 .social>a {
+
     margin: 1.875rem;
+
 }
 
-hr{
+hr {
+
     color: rgba(19, 19, 24, 0.10);
     margin: 3.125rem;
+
 }
+
+/*---------- footer section end----------*/
