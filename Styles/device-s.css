@@ -15,7 +15,8 @@
 
     nav,
     .video-section,
-    .newsletter {
+    .newsletter,
+    .popular-tour {
         flex-direction: column;
     }
 
@@ -24,8 +25,7 @@
     }
 
     .service-content-box,
-    .secletion,
-    .popular-tour {
+    .secletion {
         flex-direction: column;
         width: 100%;
         background-repeat: no-repeat;
