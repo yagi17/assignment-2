@@ -2,46 +2,64 @@
 
 
     .cover-container{
+
         padding: 10%;
+
     }
     .secletion{
+
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+        align-items: flex-start;
         align-items: center;
-        padding: ;
+
     }
     main,
     header {
+
         margin: 0 auto;
         width: 90.25%;
+
     }
 
     nav,
     .video-section,
     .newsletter {
+
         flex-direction: column;
+
     }
 
     .secletion {
+
         width: 180px;
+
     }
 
     .service-content-box,
     .secletion,
     .popular-tour {
+
         flex-direction: column;
         width: 100%;
         background-repeat: no-repeat;
     }
 
     .places-container {
+
         flex-direction: column;
         align-items: center;
+
     }
 
     .package-2,
     .package-1,
     .package-description {
+
         height: auto;
         width: auto;
+
     }
 
     .maldives,
@@ -51,22 +69,25 @@
     .kashmir,
     .bangladesh,
     .bandarban {
+
         width: 90vw;
         max-width: none;
+
     }
 
     .content-box-3 {
+
         width: 91%;
+
     }
 
     .video,
     .letter-img,
     .newsletter-form {
+
         margin-top: 1.5rem;
         width: auto;
+
     }
 
-    /* img{
-        width: 20.938rem;
-    } */
 }
