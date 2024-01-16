@@ -453,3 +453,45 @@ nav li a {
     font-size: 1.25rem;
     font-weight: 800;
 }
+
+/* Newsletter section */
+
+.newsletter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-form {
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    width: 24.563rem;
+    padding: 40px;
+    /* height: 26.375rem; */
+}
+
+.letter-title {}
+
+.letter-text {}
+
+.form-item {
+    margin-top: 18px;
+    border: none;
+    width: 24.563rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.subscribe {
+    text-align: center;
+    color: #FFF;
+    border-radius: 0.5rem;
+    background: #FF5400;
+}
+.letter-img{
+    /* background-image: url("../Images/Image-13.png"); */
+}
+
+/* footer section */
