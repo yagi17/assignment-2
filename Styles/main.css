@@ -1,0 +1,374 @@
+/*---------- shared styles ----------*/
+body {
+    margin: 0 auto;
+    width: 81.25%;
+    max-width: 1170px;
+    margin: auto;
+    font-family: 'Mulish';
+}
+
+.color-orange {
+    color: #FF5400;
+}
+
+.primary-btn {
+
+    background-color: #FF5400;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    padding: 16px;
+
+}
+
+/*---------- header styles ----------*/
+
+header {
+
+    margin-top: 52px;
+
+}
+
+/*---------- nav related styles ----------*/
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 10px;
+    align-content: center;
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav ul {
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    gap: 44px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+/*---------- nav styles end ----------*/
+/*---------- Banner styles ----------*/
+.cover {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Image-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.cover-container {
+    border: 1px solid red;
+    width: 800px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 150px 185px;
+
+
+}
+
+.cover-content {
+    width: 676px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
+
+.cover-title {
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.cover-description {
+    margin-top: 14px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.secletion {
+    /* border: 1px solid red; */
+    background: rgba(255, 255, 255, 0.30);
+    margin: auto;
+    width: fit-content;
+    border-radius: 8px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.selection-box {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    padding-left: 16px;
+}
+
+/* popular-tour section */
+.popular-tour {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.popular-tour-content {
+    gap: 24px;
+}
+
+.popular-tour-content ul li {
+
+    gap: 16px;
+
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Destination section */
+.destination-content {
+    margin-top: 100px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.places-container {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.maldives {
+    background-image: url("../Images/Image-3.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 573px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.indonesia {
+    background-image: url("../Images/Image-4.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 573px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.srilanka {
+
+    background-image: url("../Images/Image-5.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 374px;
+    height: 286px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.na {
+
+    background-image: url("../Images/Image-6.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 474px;
+    height: 286px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kashmir {
+
+    background-image: url("../Images/Image-7.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 274px;
+    height: 286px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bangladesh {
+
+    background-image: url("../Images/Image-8.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 473px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bandarban {
+
+    background-image: url("../Images/Image-9.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 673px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .place-name {
+    color: #ffffff;
+} */
+
+/* service section */
+
+.service {
+    margin-top: 100px;
+}
+
+.service-content {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+
+.service-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.service-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.content-box-1 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.content-box-2 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.content-box-3 {
+    padding: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.service-content-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 24px;
+}
+
+/* video section */
+.video-section {
+    border: 1px solid red;
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video {
+    background-image: url("../Images/Image-12.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 610px;
+    height: 424px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.video-description-title {
+
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.video-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
